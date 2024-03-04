@@ -1,0 +1,23 @@
+//Bai 2:
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b;
+    cout << "Nguoi thu nhat a: " << endl;
+    cin >> a;
+    cout << "Nguoi thu hai b: " << endl;
+    cin >> b;
+    if ((a == 2 && b == 0) || (a == 0 && b == 5) || (a == 5 && b == 2)) {
+        cout << "b win" << endl;
+    }
+    else if ((b == 2 && a == 0) || (b == 0 && a == 5) || (b == 5 && a == 2)) {
+        cout << "a win" << endl;
+    }
+    else {
+        cout << "Nhap du lieu sai!" << endl;
+    }
+
+
+return 0;
+}
