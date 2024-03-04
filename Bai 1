@@ -1,0 +1,17 @@
+//Bai 1:
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    cout << " Nhap gia tri cua a: " << endl;
+    cin >> a;
+    cout << " Nhap gia tri cua b:" << endl;
+    cin >> b;
+    if (a % b == 0) {
+        cout << " a chia het cho b " << endl;
+    }
+    else {
+        cout << " a khong chia het cho b " << endl;
+    }
+    return 0;
+ }
